@@ -1,0 +1,17 @@
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav>
+        <p class="button-p">
+            <button mat-icon-button (click)="sidenav.toggle()" color="primary" aria-label="Toggle Menu">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </p>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <p class="button-p">
+            <button mat-icon-button (click)="sidenav.toggle()" aria-label="Toggle Menu" color="primary">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </p>
+    </mat-sidenav-content>
+</mat-sidenav-container>
